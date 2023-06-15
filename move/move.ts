@@ -38,7 +38,6 @@ namespace $ {
 		var new_arr = arr.slice()
 
 		var item = new_arr.splice( ind, 1 )[ 0 ]
-		console.log( new_arr, item )
 		new_arr.push( item )
 
 		return new_arr
