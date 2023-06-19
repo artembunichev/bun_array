@@ -1,7 +1,5 @@
 namespace $ {
 
-	export type $bun_array_move_identifier< T > = T | ( ( el: T )=> unknown )
-
 	export function $bun_array_move_with< T >( arr: Readonly< Array< T > >, ind1: number, ind2: number ) {
 		var len = arr.length
 
