@@ -8,7 +8,7 @@ namespace $ {
 		res[ ind1 ] = res[ ind2 ]
 		res[ ind2 ] = tmp
 
-		return res
+		return res as Readonly< Array< T > >
 
 	}
 
